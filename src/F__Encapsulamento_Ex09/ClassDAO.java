@@ -9,31 +9,31 @@ public class ClassDAO {
         this.peso=classDTO.getPeso();
         
         if(this.altura<1.20 && this.peso<=60){
-            classificacao = this.nome+" possui a classificação: A";
+            this.classificacao = this.nome+" possui a classificação: A";
         }
         else if(this.altura>=1.20 && this.altura<=1.70 && this.peso<=60){
-            classificacao = this.nome+" possui a classificação: B";
+            this.classificacao = this.nome+" possui a classificação: B";
         }
         else if(this.altura>1.70 && this.peso<=60){
-            classificacao = this.nome+" possui a classificação: C";
+            this.classificacao = this.nome+" possui a classificação: C";
         }
         else if(this.altura<1.20 && this.peso>60 && this.peso<=90){
-            classificacao = this.nome+" possui a classificação: D";
+            this.classificacao = this.nome+" possui a classificação: D";
         }
         else if(this.altura>=1.20 && this.altura<=1.70 && this.peso>60 && this.peso<=90){
-            classificacao = this.nome+" possui a classificação: E";
+            this.classificacao = this.nome+" possui a classificação: E";
         }
         else if(this.altura>1.70 && this.peso>60 && this.peso<=90){
-            classificacao = this.nome+" possui a classificação: F";
+            this.classificacao = this.nome+" possui a classificação: F";
         }
         else if(this.altura < 1.20 && this.peso >90){
-            classificacao = this.nome+" possui a classificação: G";
+            this.classificacao = this.nome+" possui a classificação: G";
         }
         else if(this.altura>=1.20 && this.altura<=1.70 && this.peso >90){
-            classificacao = this.nome+" possui a classificação: H";
+            this.classificacao = this.nome+" possui a classificação: H";
         }
         else if(this.altura>1.70 && this.peso >90){
-            classificacao = this.nome+" possui a classificação: I";
+            this.classificacao = this.nome+" possui a classificação: I";
         }
         
         return classificacao;
