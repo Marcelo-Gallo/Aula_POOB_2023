@@ -14,7 +14,7 @@ public class NumsVIEW {
                 
         }
         catch (Exception e){
-            JOptionPane.showMessageDialog(null, "Erro no sistema"+e.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro no sistema: "+e.getMessage());
         }
     }  
 }
