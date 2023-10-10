@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package G_Heranca_Ex01;
 
-/**
- *
- * @author marce
- */
-public class CarroDTO {
+public class CarroDTO extends VeiculoDTO {
+    private int potencia, qnt_portas;
+
+    public int getPotencia() {
+        return potencia;
+    }
+
+    public void setPotencia(int potencia) {
+        this.potencia = potencia;
+    }
+
+    public int getQnt_portas() {
+        return qnt_portas;
+    }
+
+    public void setQnt_portas(int qnt_portas) {
+        this.qnt_portas = qnt_portas;
+    }
     
 }
