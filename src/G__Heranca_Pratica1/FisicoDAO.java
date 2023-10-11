@@ -7,6 +7,4 @@ public class FisicoDAO extends ClienteDAO{
                 +"\nO RG é: "+fisicoDTO.getRg();
                 
     }
-    
-    
 }

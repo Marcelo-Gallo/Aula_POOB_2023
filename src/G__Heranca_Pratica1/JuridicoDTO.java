@@ -1,6 +1,6 @@
 package G__Heranca_Pratica1;
 
-public class JuridicoDTO{
+public class JuridicoDTO extends ClienteDTO{
     
     private String cnpj, ie;
 

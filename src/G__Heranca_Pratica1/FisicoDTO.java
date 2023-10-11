@@ -1,6 +1,6 @@
 package G__Heranca_Pratica1;
 
-public class FisicoDTO{
+public class FisicoDTO extends ClienteDTO{
     private String cpf, rg;
 
     public String getCpf() {
