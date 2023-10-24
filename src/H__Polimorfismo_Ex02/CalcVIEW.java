@@ -9,6 +9,7 @@ public class CalcVIEW {
         calcDTO.setN2(Double.parseDouble(JOptionPane.showInputDialog("Informe a N2: ")));
         calcDTO.setN3(Double.parseDouble(JOptionPane.showInputDialog("Informe a N3: ")));
         calcDTO.setN4(Double.parseDouble(JOptionPane.showInputDialog("Informe a N4: ")));
+        calcDTO.setOpc(Integer.parseInt(JOptionPane.showInputDialog("Informe a opção de média 1, 2 ou 3: ")));
         
         JOptionPane.showMessageDialog(null, calcCTR.imprimir(calcDTO));
         

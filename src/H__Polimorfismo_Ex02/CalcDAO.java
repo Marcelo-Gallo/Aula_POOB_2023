@@ -7,8 +7,6 @@ public class CalcDAO {
         return "A média é: "+calcDTO.getMedia();
     }
     
-
-
     public void calcularMedia(CalcDTO calcDTO){
         
         if(calcDTO.getOpc()==1){
