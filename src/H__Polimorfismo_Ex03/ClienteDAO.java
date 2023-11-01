@@ -2,8 +2,6 @@ package H__Polimorfismo_Ex03;
 
 import G__Heranca_Ex02.*;
 
-
-
 public class ClienteDAO {
     public String mostraDadosCli(ClienteDTO clienteDTO){
         return "O nome é: "+clienteDTO.getNome()
