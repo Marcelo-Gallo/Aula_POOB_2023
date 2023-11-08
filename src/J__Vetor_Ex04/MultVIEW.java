@@ -20,10 +20,10 @@ public class MultVIEW {
         multDTO.setVet2(aux2);
         
         opc = Integer.parseInt(JOptionPane.showInputDialog("Qual operação deseja fazer?"
-                                                                    +"1-Soma"
-                                                                    +"2-Subtração"
-                                                                    +"3-Multiplicação"
-                                                                    +"4-Divisão"
+                                                                    +"\n1-Soma"
+                                                                    +"\n2-Subtração"
+                                                                    +"\n3-Multiplicação"
+                                                                    +"\n4-Divisão"
         ));
             
             switch(opc){
